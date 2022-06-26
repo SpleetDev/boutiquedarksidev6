@@ -1,0 +1,98 @@
+@import"./color";
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $back-color;
+}
+/* header */
+.header1 {
+    background-color: $header-color;
+}
+
+.next-icon {
+    color: $icon-color;
+}
+
+.header2 {
+    background-color: $back-color;
+}
+/* search */
+.search-input {
+    outline: none;
+}
+
+/* sell item */
+.sell-text1 {
+    font-size: 13px;
+}
+
+.sell-text2 {
+    font-size: 13px;
+}
+
+.sell-price1 {
+    font-size: 12px;
+}
+
+.sell-price2 {
+    font-size: 12px;
+
+}
+
+.sell-off {
+    font-size: 12px;
+}
+
+/* footer */
+.footer {
+    background-color: $header-color;
+}
+
+.social-media-box {
+    background-color: 2298ff;
+}
+
+.line1 {
+    color:$black-color;
+    width: 100%;
+}
+
+.info-box {
+    background-color: $header-color;
+}
+
+.info-text1 {
+    color: $text-color;
+}
+
+.footer-box {
+    background-color: $header-color;
+}
+
+
+.text-sign1 {
+    font-family: Dancing Script;
+    font-size: 50px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.box:hover {
+    margin-top: -20px;
+    transition: all .7s ease;
+}
+.filter{
+    background-color: $header-color;
+}
+.day-text{
+    font-size: 12px;
+}
+.box2{
+    opacity: 70%;
+}
+.box2:hover{
+opacity: 100%;
+}   
